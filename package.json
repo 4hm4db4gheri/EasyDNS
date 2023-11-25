@@ -1,0 +1,10 @@
+{
+  "name": "easydns",
+  "version": "1.0.0",
+  "description": "Ann application that helps setting dns on PC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahmad Bagheri",
+  "license": "MIT"
+}
