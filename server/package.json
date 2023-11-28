@@ -1,5 +1,13 @@
 {
   "name": "easydns",
   "version": "1.0.0",
-  "description": "Ann application that helps setting dns on PC"
+  "description": "Ann application that helps setting dns on PC",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "devDependencies": {
+    "electron": "^27.1.2"
+  }
 }
