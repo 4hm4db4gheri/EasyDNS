@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Ann application that helps setting dns on PC",
   "type": "module",
-  
   "scripts": {
     "dev": "vite"
   },

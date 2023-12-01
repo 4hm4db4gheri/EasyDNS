@@ -6,7 +6,9 @@ function createWindow() {
         height: 560
     });
 
-    win.loadFile('../client/src/index.html');
+    win.loadURL('http://localhost:5173/');
+    // before:
+    // win.loadFile('../client/src/index.html');
 }
 
 app.whenReady().then(createWindow);
