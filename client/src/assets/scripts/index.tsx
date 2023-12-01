@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Layout } from "./components/Layout";
-import { FirstPage } from "./pages/FirstPage";
+import { ConnectionPage } from "./pages/ConnectionPage";
+import { DNSPage } from "./pages/DNSPage";
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Layout />}>
-                    <Route index element={<FirstPage />} />
+                    <Route index element={<ConnectionPage />} />
+                    <Route path="DNSPage" element={<DNSPage />}/>
                 </Route>
             </Routes>
         </BrowserRouter>
